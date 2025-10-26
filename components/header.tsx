@@ -10,7 +10,7 @@ export function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navItems = [
         { href: "/features", label: "Features" },
-        { href: "/about", label: "About Aura" },
+        { href: "/about", label: "About Atharva" },
     ];
     return (
         <div className="w-full fixed top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -24,7 +24,7 @@ export function Header() {
                         <AudioWaveform className="h-7 w-7 text-primary animate-pulse-gentle" />
                         <div className="flex flex-col">
                             <span className="font-semibold text-lg bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                                Aura3.0
+                                Atharva
                             </span>
                             <span className="text-xs dark:text-muted-foreground">
                                 Your mental health Companion{" "}
